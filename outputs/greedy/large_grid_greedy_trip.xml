@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-07-06 23:44:46 by Eclipse SUMO GUI Version v1_17_0+1256-16eabe86c67
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="./cnr/exp.net.xml"/>
+        <route-files value="./cnr/exp_2.rou.xml"/>
+        <additional-files value="./cnr/exp.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="./outputs/greedy/large_grid_greedy_trip.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="600"/>
+    </processing>
+
+    <report>
+        <no-warnings value="True"/>
+        <duration-log.disable value="True"/>
+        <no-step-log value="True"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="8002"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="2"/>
+    </random_number>
+
+</configuration>
+-->
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
